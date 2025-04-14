@@ -6,16 +6,16 @@ function OverviewCard({ data }) {
   let iconPath = ''
   switch (network) {
     case 'facebook':
-      iconPath = '/src/assets/icon-facebook.svg'
+      iconPath = './src/assets/icon-facebook.svg'
       break
     case 'twitter':
-      iconPath = '/src/assets/icon-twitter.svg'
+      iconPath = './src/assets/icon-twitter.svg'
       break
     case 'instagram':
-      iconPath = '/src/assets/icon-instagram.svg'
+      iconPath = './src/assets/icon-instagram.svg'
       break
     case 'youtube':
-      iconPath = '/src/assets/icon-youtube.svg'
+      iconPath = './src/assets/icon-youtube.svg'
       break
     default:
       iconPath = ''

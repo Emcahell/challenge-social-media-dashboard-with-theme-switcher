@@ -9,19 +9,19 @@ function Card({ data }) {
   let borderColor = ''
   switch (network) {
     case 'facebook':
-      iconPath = '/src/assets/icon-facebook.svg' 
+      iconPath = './src/assets/icon-facebook.svg' 
       borderColor = 'border-Facebook'
       break
     case 'twitter':
-      iconPath = '/src/assets/icon-twitter.svg'
+      iconPath = './src/assets/icon-twitter.svg'
       borderColor = 'border-Twitter'
       break
     case 'instagram':
-      iconPath = '/src/assets/icon-instagram.svg'
+      iconPath = './src/assets/icon-instagram.svg'
       borderColor = 'border-Instagram-Gradient-2'
       break
     case 'youtube':
-      iconPath = '/src/assets/icon-youtube.svg'
+      iconPath = './src/assets/icon-youtube.svg'
       borderColor = 'border-YouTube'
       break
     default:
