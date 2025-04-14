@@ -1,4 +1,8 @@
 import React from 'react'
+import facebookIcon from '/src/assets/icon-facebook.svg';
+import twitterIcon from '/src/assets/icon-twitter.svg';
+import instagramIcon from '/src/assets/icon-instagram.svg';
+import youtubeIcon from '/src/assets/icon-youtube.svg';
 
 function OverviewCard({ data }) {
   const { title, network, count, percentage } = data
@@ -6,16 +10,16 @@ function OverviewCard({ data }) {
   let iconPath = ''
   switch (network) {
     case 'facebook':
-      iconPath = './src/assets/icon-facebook.svg'
+      iconPath = facebookIcon
       break
     case 'twitter':
-      iconPath = './src/assets/icon-twitter.svg'
+      iconPath = twitterIcon
       break
     case 'instagram':
-      iconPath = './src/assets/icon-instagram.svg'
+      iconPath = instagramIcon
       break
     case 'youtube':
-      iconPath = './src/assets/icon-youtube.svg'
+      iconPath = youtubeIcon
       break
     default:
       iconPath = ''

@@ -1,4 +1,8 @@
 import React from 'react'
+import facebookIcon from '/src/assets/icon-facebook.svg';
+import twitterIcon from '/src/assets/icon-twitter.svg';
+import instagramIcon from '/src/assets/icon-instagram.svg';
+import youtubeIcon from '/src/assets/icon-youtube.svg';
 
 function Card({ data }) {
   // Extraemos la información
@@ -9,19 +13,19 @@ function Card({ data }) {
   let borderColor = ''
   switch (network) {
     case 'facebook':
-      iconPath = '/icon-facebook.svg' 
+      iconPath = facebookIcon 
       borderColor = 'border-Facebook'
       break
     case 'twitter':
-      iconPath = '/icon-twitter.svg'
+      iconPath = twitterIcon
       borderColor = 'border-Twitter'
       break
     case 'instagram':
-      iconPath = '/icon-instagram.svg'
+      iconPath = instagramIcon
       borderColor = 'border-Instagram-Gradient-2'
       break
     case 'youtube':
-      iconPath = '/icon-youtube.svg'
+      iconPath = youtubeIcon
       borderColor = 'border-YouTube'
       break
     default:
